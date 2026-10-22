@@ -7,13 +7,15 @@ Example Code for Sumo Bot Competition
 # How to Connect
 **_Add Board_**
 1) Install Arduino IDE 
-2) Go to the File tab then preferences.
+2) Go to the File tab then preferences
 3) Scroll down to show ‘Additional boards manager URLs:’ and insert this link https://files.pololu.com/arduino/package_pololu_index.json
+4) Use the board manager tab on the left to search ‘Pololu’ and the drivers can then be installed
+5) Use the tools tab to select the 32U4 board, and once plugged in the port: “COM5” will automatically connect
 
 **_Installing the library_**
 Use the Library Manager in version 1.8.10 or later of the Arduino software (IDE) to install this library:
-1) In the Arduino IDE, open the "Tools" menu and select "Manage Libraries...".
-2) Search for "Zumo32U4".
-3) Click the Zumo32U4 entry in the list.
-4) Click "Install".
-5) If you see a prompt asking to install missing dependencies, click "Install all".
+1) In the Arduino IDE, open the "Tools" menu and select "Manage Libraries..."
+2) Search for "Zumo32U4"
+3) Click the Zumo32U4 entry in the list
+4) Click "Install"
+5) If you see a prompt asking to install missing dependencies, click "Install all"
