@@ -16,9 +16,12 @@ void setup()
   //clear display and print test output
   display.clear();
   display.print(F("Hello Zumo!"));
+  // run void delay code here
 }
 
 void loop() 
 {
+// setSpeeds(int16_t leftSpeed, int16_t rightSpeed) inputs from -400 to 400 for each number
+
   
 }
