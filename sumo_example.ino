@@ -11,12 +11,17 @@
 //#include <Zumo32U4LCD.h>
 //Zumo32U4LCD display;
 
+//variables
+Zumo32U4Buzzer buzzer;
+
 void setup() 
 {
   //clear display and print test output
   display.clear();
   display.print(F("Hello Zumo!"));
-  // run void delay code here
+
+  //wait for 5 seconds
+  startupDelay();
 }
 
 void loop() 
@@ -24,4 +29,11 @@ void loop()
 // setSpeeds(int16_t leftSpeed, int16_t rightSpeed) inputs from -400 to 400 for each number
 
   
+}
+
+void startupDelay()
+{
+  buzzer.playNote(NOTE_C(5), 200, 15); // short beep
+  delay(5000);                          // wait 5 seconds
+  buzzer.playNote(NOTE_G(5), 300, 15); // start beep
 }
