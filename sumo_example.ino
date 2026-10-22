@@ -1,3 +1,6 @@
+#include <Wire.h>
+#include <Zumo32U4.h>
+
 // Uncomment the display you are using:
 
 // For the OLED version:
