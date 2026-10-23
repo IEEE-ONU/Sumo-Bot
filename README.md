@@ -33,4 +33,5 @@ Use the Library Manager in version 1.8.10 or later of the Arduino software (IDE)
 
 **_Code Setup_**
 1) Uncomment the two lines corresponding to the display you are using at the top of the program
-2) Flash your code and test it out!
+2) Flash your code and check if the screen and sounds work
+3) Write your control loop using the user guide and functions provided
