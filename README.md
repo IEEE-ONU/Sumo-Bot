@@ -19,3 +19,7 @@ Use the Library Manager in version 1.8.10 or later of the Arduino software (IDE)
 3) Click the Zumo32U4 entry in the list
 4) Click "Install"
 5) If you see a prompt asking to install missing dependencies, click "Install all"
+
+**_Code Setup_**
+1) Uncomment the two lines corresponding to the display you are using at the top of the program
+2) Flash your code and test it out!
