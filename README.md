@@ -11,6 +11,7 @@ Example Code for Sumo Bot Competition
 Download SumoBots_Rules_sac2026.pdf from the repository's files.
 
 **_Example Code_**
+
 Download sumo_example.ino from the repository's files.
 
 # How to Connect
