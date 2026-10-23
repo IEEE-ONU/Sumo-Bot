@@ -1,7 +1,7 @@
 #include <Wire.h>
 #include <Zumo32U4.h>
 
-// Uncomment the display you are using:
+// Uncomment both lines for the display you are using:
 
 // For the OLED version:
 //#include <Zumo32U4OLED.h>
@@ -18,7 +18,7 @@ void setup()
 {
   //clear display and print test output
   display.clear();
-  display.print(F("Hello Zumo!"));
+  display.print(F("Hello!"));
 
   //wait for 5 seconds
   startupDelay();
