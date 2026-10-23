@@ -1,8 +1,17 @@
 # Sumo-Bot
 Example Code for Sumo Bot Competition
 
-# Zumo 32U4 User’s Guide
+# Resources
+**_Zumo 32U4 User’s Guide_**
+
 [User Guide](https://www.pololu.com/docs/0J63/all#:~:text=We%20provide%20a%20software%20add-on%20that#:~:text=We%20provide%20a%20software%20add-on%20that)
+
+**_Rules_**
+
+Download SumoBots_Rules_sac2026.pdf from the repository's files.
+
+**_Example Code_**
+Download sumo_example.ino from the repository's files.
 
 # How to Connect
 **_Add Board_**
