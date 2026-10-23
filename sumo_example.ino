@@ -26,9 +26,20 @@ void setup()
 
 void loop() 
 {
-// setSpeeds(int16_t leftSpeed, int16_t rightSpeed) inputs from -400 to 400 for each number
-  // void Zumo32U4LineSensors::initFiveSensors(uint8_t emitterPin = SENSOR_LEDON)
+  // Uncomment if necessary to correct motor directions:
+  //motors.flipLeftMotor(true);
+  //motors.flipRightMotor(true);
+  
+  //write your control loop here!
 
+  /*
+  Useful Functions:
+    
+  motors.setSpeeds(int16_t leftSpeed, int16_t rightSpeed); //inputs are from -400 to 400 for each number, positive is forward, negative is reverse
+  buttonA.waitForButton(); //wait until button A is pressed
+  lineSensors.initThreeSensors(); //initialize line sensors
+  lineSensors.read(lineSensorValues); //read line sensors
+  */
   
 }
 
