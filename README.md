@@ -6,6 +6,10 @@ Example Code for Sumo Bot Competition
 
 [User Guide](https://www.pololu.com/docs/0J63/all#:~:text=We%20provide%20a%20software%20add-on%20that#:~:text=We%20provide%20a%20software%20add-on%20that)
 
+**_Zumo 32U4 User’s Guide_**
+
+[Documentation](https://pololu.github.io/zumo-32u4-arduino-library/) on Various Functions
+
 **_Rules_**
 
 Download SumoBots_Rules_sac2026.pdf from the repository's files.
