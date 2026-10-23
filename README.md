@@ -16,11 +16,12 @@ Download sumo_example.ino from the repository's files.
 
 # How to Connect
 **_Add Board_**
-1) Install Arduino IDE 
-2) Go to the File tab then preferences
-3) Scroll down to show ‘Additional boards manager URLs:’ and insert this link https://files.pololu.com/arduino/package_pololu_index.json
-4) Use the board manager tab on the left to search ‘Pololu’ and the drivers can then be installed
-5) Use the tools tab to select the 32U4 board, and once plugged in the port: “COM5” will automatically connect
+1) Install Arduino IDE
+2) Go to file, then open, then open sumo_example.ino
+3) Go to the File tab then preferences
+4) Scroll down to show ‘Additional boards manager URLs:’ and insert this link https://files.pololu.com/arduino/package_pololu_index.json
+5) Use the board manager tab on the left to search ‘Pololu’ and the drivers can then be installed
+6) Use the tools tab to select the 32U4 board, and once plugged in the port: “COM5” will automatically connect
 
 **_Installing the library_**
 Use the Library Manager in version 1.8.10 or later of the Arduino software (IDE) to install this library:
