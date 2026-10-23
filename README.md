@@ -6,17 +6,21 @@ Example Code for Sumo Bot Competition
 
 [User Guide](https://www.pololu.com/docs/0J63/all#:~:text=We%20provide%20a%20software%20add-on%20that#:~:text=We%20provide%20a%20software%20add-on%20that)
 
-**_Zumo 32U4 User’s Guide_**
+
+**_Documentation_**
 
 [Documentation](https://pololu.github.io/zumo-32u4-arduino-library/) on Various Functions
+
 
 **_Rules_**
 
 Download SumoBots_Rules_sac2026.pdf from the repository's files.
 
+
 **_Example Code_**
 
 Download sumo_example.ino from the repository's files.
+
 
 # How to Connect
 **_Add Board_**
@@ -38,4 +42,4 @@ Use the Library Manager in version 1.8.10 or later of the Arduino software (IDE)
 **_Code Setup_**
 1) Uncomment the two lines corresponding to the display you are using at the top of the program
 2) Flash your code and check if the screen and sounds work
-3) Write your control loop using the user guide and functions provided
+3) Write your control loop using the provided documentation
